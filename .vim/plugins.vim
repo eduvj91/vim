@@ -7,6 +7,9 @@ Plug 'joshdick/onedark.vim'
 Plug 'AlessandroYorba/Despacio'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'wojciechkepka/bogster'
+Plug 'jnurmine/zenburn'
+Plug 'drewtempelmeyer/palenight.vim'
+
 
 
 "IDE
@@ -16,11 +19,12 @@ Plug 'christoomey/vim-tmux-navigator' "Navegación entre los splits vim
 Plug 'preservim/nerdtree' "Árbol de navegación lateral
 Plug 'scrooloose/nerdcommenter' "Comentarios rápidos
 Plug 'junegunn/goyo.vim' "Pata abrir pantalla sin distracciones :Goyo o :Goyo!
-Plug 'yggdroot/indentline' "Visualiza una linea en incantación
+Plug 'yggdroot/indentline' "Visualiza una linea en cada nivel de sangría
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lilydjwg/colorizer'
 Plug 'dnitro/vim-pug-complete'
 Plug 'mattn/emmet-vim'
+
 
 " Git
 Plug 'tpope/vim-fugitive' " Utiliza Git desde Vim
@@ -29,7 +33,9 @@ Plug 'airblade/vim-gitgutter' " Visualiza los cambios Git
 
 " Syntax
 Plug 'sheerun/vim-polyglot' "Sintaxis de varios idiomas
-Plug 'digitaltoad/vim-jade'
+Plug 'digitaltoad/vim-jade' " Syntax pug
+Plug 'vim-pandoc/vim-pandoc' " Markdown syntax
+Plug 'vim-pandoc/vim-pandoc-syntax' " Markdown syntax
 
 " Status bar
 Plug 'vim-airline/vim-airline' "Barra inferior con ayuda y tema

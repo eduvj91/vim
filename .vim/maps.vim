@@ -25,9 +25,11 @@ imap jo <Esc>o
 " Emmet
 imap je <c-z>,
 
+" Visual block mode
+map <leader>v <C-v>
 
 " Cambiar de Tabla o buffers que están anclados en tablas arriba
-nnoremap <silent> <TAB> :bnext<CR>
+noremap <silent> <TAB> :bnext<CR>
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
 
